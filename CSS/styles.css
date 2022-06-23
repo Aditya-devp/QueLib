@@ -1,0 +1,185 @@
+body {
+  font-family: "Montserrat, sans-serif";
+  text-align: center;
+}
+/* headings section */
+h1,
+h2,
+h3 {
+  font-family: "Montserrat, sans-serif";
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+#title {
+  text-align: left;
+}
+
+.big-heading {
+  font-size: 3rem;
+}
+.card-heading {
+  font-size: 900;
+}
+.testimonial-text {
+  font-size: 3rem;
+
+  color: white;
+}
+p {
+  color: gray;
+}
+.container-fluid {
+  padding: 3% 15% 5%;
+}
+
+/* section */
+.colored-section {
+  background-color: #41B3A3;
+
+  
+  color: white;
+}
+.white-section {
+  background-color:rgba(255, 255, 255, 0.819);
+}
+
+.navbar {
+  background-color: #b34151;
+  background-color: #b34151;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+  padding-left: 4rem;
+  
+
+  
+
+}
+.nav-item {
+  padding: 0 4 px;
+  padding-right: 25px;
+  
+}
+.nav-link {
+
+  font-size: 1.2rem;
+  font-family: "Montserrat, sans-serif";
+  font-weight: 900;
+}
+.button {
+  margin: 5% 3% 5% 0;
+}
+.titleimg {
+width: 60%;
+ margin: auto auto -12rem 50px;
+border-radius:30px;
+  position: relative;
+  top:10px;
+  left: 40%;
+}
+/* feature section */
+#features {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.feature-box {
+  padding: 5%;
+}
+.icons {
+  color:black;
+  padding: 10%;
+}
+.feature-text{
+  font-size: 1rem;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+.feature-heading {
+  font-size: 2rem;
+
+}
+/* review section */
+
+#testimonials {
+  background-color: #41B3A3;
+  
+}
+.test-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  background-color: #ef8172;
+
+  padding-bottom: 3%;
+}
+
+.logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+/* pricing sec */
+#pricing {
+  padding: 100px;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+.pricing-text {
+  font-size: 3rem;
+}
+@media (max-width: 1028px) {
+  .titleimg {
+    position: static;
+    transform: rotate(0);
+  }
+}
+/* cta section */
+#cta {
+  padding: 7% 15%;
+}
+#font {
+  font-size: 3rem;
+}
+.cta-heading {
+  font-size: 3.5rem;
+}
+/* footer section */
+#footer {
+  padding: 7% 15%;
+}
+.f-icons {
+  margin: 20px 20px;
+  font-size: x-large;
+ 
+}
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.links{
+  color:black;
+}
+.footsign{
+  margin-top: 10px; 
+  color: gray;
+  font-weight: 400;
+
+}
+
+.hrl{
+  color: #41B3A3;
+  
+}
